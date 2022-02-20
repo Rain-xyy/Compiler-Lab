@@ -1,0 +1,14 @@
+int main()
+{
+  int a = 1;
+  int b = 2;
+  int c = 3;
+  (a = b) = c;
+  a = b = c;
+  (a = 1) = b;
+  a = 1 = b;
+  (1 = a) = b;
+  1 = a = b;
+  main = 1;
+  return a;
+}
